@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset
+        name="helloscan_conf"
+        label="COM_HELLOSCAN_CONF_LABEL"
+        description="COM_HELLOSCAN_CONF_DESC"
+    >
+        <field
+            name="helloscan_authkey"
+            type="text"
+            label="COM_HELLOSCAN_AUTHKEY_LABEL"
+            description="COM_HELLOSCAN_AUTHKEY_DESC"
+            default=""
+            size="30"
+        >
+        </field>
+    </fieldset>
+    <params>
+        <param name="helloscan_authkey" type="text" default="" size="30"
+            label="COM_HELLOSCAN_AUTHKEY_LABEL"
+            description ="COM_HELLOSCAN_AUTHKEY_DESC" />
+    </params>
+</config>
